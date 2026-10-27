@@ -1,0 +1,258 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aakriti Fashion Design Institute | Home</title>
+
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+
+<header>
+    <nav class="navbar container">
+        <a class="logo" href="/">
+            AAKRITI
+            <span>Fashion Design Institute</span>
+        </a>
+
+        <ul class="nav-links">
+            <li><a class="active" href="/">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/courses/">Courses</a></li>
+            <li><a href="/gallery/">Gallery</a></li>
+            <li><a href="/contact/">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container hero-grid">
+
+            <div>
+                <p class="eyebrow">Learn · Create · Design</p>
+
+                <h1>Where Fashion Meets Creativity</h1>
+
+                <p>
+                    Discover the art of fashion designing, expert stitching
+                    techniques and beautiful embroidery at Aakriti Fashion
+                    Design Institute.
+                </p>
+
+                <div class="button-row">
+                    <a class="btn" href="/courses/">Explore Courses</a>
+                    <a class="btn btn-outline" href="/contact/">Enquire Now</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="{% static 'images/a-man-working-on-fashion.jpg' %}"
+                    alt="Fashion designer working on a design">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- WELCOME SECTION -->
+    <section class="section">
+        <div class="container split">
+
+            <div class="split-image">
+                <img
+                    src="{% static 'images/designing-plan-of-a-dress.jpg' %}"
+                    alt="Fashion design plan">
+            </div>
+
+            <div>
+                <p class="eyebrow">Welcome to Aakriti</p>
+
+                <h2>Turn Your Passion Into a Skill</h2>
+
+                <p>
+                    Explore the world of fashion through design, fabric,
+                    cutting, stitching and embroidery. Learn step by step
+                    and develop your creative confidence.
+                </p>
+
+                <p>
+                    Our institute aims to make fashion skills approachable
+                    for learners who want to develop their talent.
+                </p>
+
+                <a class="btn" href="/about/">Discover Our Institute</a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- COURSES SECTION -->
+    <section class="section section-ivory">
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="eyebrow">What You Can Learn</p>
+
+                <h2>Explore Our Courses</h2>
+
+                <p>
+                    Build practical skills in design, garment construction
+                    and decorative embroidery.
+                </p>
+            </div>
+
+            <div class="card-grid">
+
+                <article class="card">
+                    <img
+                        src="{% static 'images/planning-of-a-dress.jpg' %}"
+                        alt="Fashion design planning">
+
+                    <div class="card-content">
+                        <h3>Fashion Designing</h3>
+
+                        <p>
+                            Learn design concepts, garment ideas and
+                            creative presentation.
+                        </p>
+
+                        <a class="card-link" href="/courses/">
+                            Learn more →
+                        </a>
+                    </div>
+                </article>
+
+
+                <article class="card">
+                    <img
+                        src="{% static 'images/cutting-cloth.jpg' %}"
+                        alt="Fabric being cut for a garment">
+
+                    <div class="card-content">
+                        <h3>Cutting &amp; Stitching</h3>
+
+                        <p>
+                            Understand fabric cutting, measurements and
+                            garment stitching techniques.
+                        </p>
+
+                        <a class="card-link" href="/courses/">
+                            Learn more →
+                        </a>
+                    </div>
+                </article>
+
+
+                <article class="card">
+                    <img
+                        src="{% static 'images/hand-embroidory-work.jpg' %}"
+                        alt="Hand embroidery work">
+
+                    <div class="card-content">
+                        <h3>Embroidery &amp; Craft</h3>
+
+                        <p>
+                            Explore decorative hand embroidery and
+                            detailed fabric embellishment.
+                        </p>
+
+                        <a class="card-link" href="/courses/">
+                            Learn more →
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FEATURES SECTION -->
+    <section class="section">
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="eyebrow">The Aakriti Experience</p>
+                <h2>Build Your Creative Skills</h2>
+            </div>
+
+            <div class="feature-grid">
+
+                <div class="feature">
+                    <p class="feature-number">01</p>
+                    <h3>Practical Learning</h3>
+
+                    <p>
+                        Develop skills by exploring design and
+                        garment-making techniques.
+                    </p>
+                </div>
+
+                <div class="feature">
+                    <p class="feature-number">02</p>
+                    <h3>Creative Thinking</h3>
+
+                    <p>
+                        Discover new ideas through colours, fabrics
+                        and fashion inspiration.
+                    </p>
+                </div>
+
+                <div class="feature">
+                    <p class="feature-number">03</p>
+                    <h3>Skill Development</h3>
+
+                    <p>
+                        Build a foundation for your future fashion journey.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CONTACT CTA -->
+    <section class="cta">
+        <div class="container">
+
+            <h2>Ready to Begin Your Fashion Journey?</h2>
+
+            <p>Contact us to learn more about our courses.</p>
+
+            <a class="btn btn-outline" href="/contact/">
+                Contact Aakriti
+            </a>
+
+        </div>
+    </section>
+
+</main>
+
+
+<!-- FOOTER -->
+<footer>
+    <div class="container footer-content">
+
+        <p>© 2026 Aakriti Fashion Design Institute</p>
+
+        <div class="footer-links">
+            <a href="/about/">About</a>
+            <a href="/courses/">Courses</a>
+            <a href="/gallery/">Gallery</a>
+            <a href="/contact/">Contact</a>
+        </div>
+
+    </div>
+</footer>
+
+</body>
+</html>

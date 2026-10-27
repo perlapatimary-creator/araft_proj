@@ -1,0 +1,184 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Aakriti Fashion Design Institute</title>
+
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+
+<header>
+    <nav class="navbar container">
+        <a class="logo" href="/">
+            AAKRITI
+            <span>Fashion Design Institute</span>
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/courses/">Courses</a></li>
+            <li><a href="/gallery/">Gallery</a></li>
+            <li><a class="active" href="/contact/">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <!-- PAGE BANNER -->
+    <section class="page-banner">
+        <div class="container">
+            <p class="eyebrow">We'd Love to Hear From You</p>
+            <h1>Contact Aakriti</h1>
+            <p>
+                Ask us about courses, admissions and learning opportunities.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section class="section">
+        <div class="container contact-grid">
+
+            <div class="contact-panel">
+                <p class="eyebrow">Get in Touch</p>
+
+                <h2>Let's Talk About Your Fashion Journey</h2>
+
+                <p>
+                    Have a question about our courses? Reach out to us
+                    using the contact details below.
+                </p>
+
+                <p>
+                    <strong>Address</strong><br>
+                    Kothapet, Hyderabad, Telangana
+                </p>
+
+                <p>
+                    <strong>Phone / WhatsApp</strong><br>
+                    <a href="https://wa.me/919123117128">
+                        +91 91231 17128
+                    </a>
+                </p>
+
+                <a class="btn btn-outline"
+                   href="https://wa.me/919123117128?text=Hello%20Aakriti%20Fashion%20Design%20Institute%2C%20I%20would%20like%20to%20know%20about%20your%20courses."
+                   target="_blank"
+                   rel="noopener">
+                    Message on WhatsApp
+                </a>
+            </div>
+
+
+            <!-- ENQUIRY FORM -->
+            <div>
+                <p class="eyebrow">Send an Enquiry</p>
+
+                <h2 style="font-family: 'Playfair Display', serif;
+                           font-size: 34px; margin-bottom: 20px;">
+                    How Can We Help?
+                </h2>
+
+                <form class="contact-form"
+                      action="https://formsubmit.co/perlapatimary@gmail.com"
+                      method="POST">
+
+                    <input type="hidden" name="_subject"
+                           value="New Aakriti Institute Enquiry">
+
+                    <input type="hidden" name="_captcha" value="true">
+
+                    <div>
+                        <label for="name">Full Name</label>
+                        <input type="text"
+                               id="name"
+                               name="name"
+                               placeholder="Enter your name"
+                               required>
+                    </div>
+
+                    <div>
+                        <label for="email">Email Address</label>
+                        <input type="email"
+                               id="email"
+                               name="email"
+                               placeholder="Enter your email"
+                               required>
+                    </div>
+
+                    <div>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel"
+                               id="phone"
+                               name="phone"
+                               placeholder="Enter your phone number"
+                               required>
+                    </div>
+
+                    <div>
+                        <label for="course">Course of Interest</label>
+
+                        <select id="course" name="course" required>
+                            <option value="">Select a course</option>
+                            <option>Fashion Designing</option>
+                            <option>Cutting &amp; Stitching</option>
+                            <option>Garment Stitching</option>
+                            <option>Hand Embroidery</option>
+                            <option>Embroidery Design</option>
+                            <option>Garment Construction</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="message">Your Message</label>
+
+                        <textarea id="message"
+                                  name="message"
+                                  placeholder="Write your enquiry here..."
+                                  required></textarea>
+                    </div>
+
+                    <button class="btn" type="submit">
+                        Submit Enquiry
+                    </button>
+
+                </form>
+
+                <p class="muted"
+                   style="font-size: 12px; margin-top: 12px;">
+                    The enquiry form requires email-service activation
+                    before it can receive submissions.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+
+<!-- FOOTER -->
+<footer>
+    <div class="container footer-content">
+
+        <p>© 2026 Aakriti Fashion Design Institute</p>
+
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/about/">About</a>
+            <a href="/courses/">Courses</a>
+            <a href="/gallery/">Gallery</a>
+        </div>
+
+    </div>
+</footer>
+
+</body>
+</html>
